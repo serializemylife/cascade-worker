@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Bugsnag" Version="2.2.1" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CascadeWorker.Config\CascadeWorker.Config.csproj" />
+      <ProjectReference Include="..\CascadeWorker.Database\CascadeWorker.Database.csproj" />
+      <ProjectReference Include="..\CascadeWorker.Logging\CascadeWorker.Logging.csproj" />
+      <ProjectReference Include="..\CascadeWorker.Scraper.Browser\CascadeWorker.Scraper.Browser.csproj" />
+      <ProjectReference Include="..\CascadeWorker.Scraper\CascadeWorker.Scraper.csproj" />
+      <ProjectReference Include="..\CascadeWorker.Shared\CascadeWorker.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bugsnag" Version="2.2.1" />
+    <PackageReference Include="Puzzle" Version="2.0.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CascadeWorker.Logging\CascadeWorker.Logging.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Accounts\CascadeWorker.Scraper.Accounts.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Browser\CascadeWorker.Scraper.Browser.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Notifications\CascadeWorker.Scraper.Notifications.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Queue\CascadeWorker.Scraper.Queue.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Settings\CascadeWorker.Scraper.Settings.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Validation\CascadeWorker.Scraper.Validation.csproj" />
+  </ItemGroup>
+
+</Project>

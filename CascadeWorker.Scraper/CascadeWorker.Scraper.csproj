@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bugsnag" Version="2.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CascadeWorker.Database\CascadeWorker.Database.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Browser\CascadeWorker.Scraper.Browser.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Scraper.Social\CascadeWorker.Scraper.Social.csproj" />
+  </ItemGroup>
+
+</Project>

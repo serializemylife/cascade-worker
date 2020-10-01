@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CascadeWorker.Database\CascadeWorker.Database.csproj" />
+    <ProjectReference Include="..\CascadeWorker.Shared\CascadeWorker.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
